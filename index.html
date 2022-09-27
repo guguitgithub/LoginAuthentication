@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script>
+        //login authentication using javascript
+         
+        function check(){
+            var u= document.getElementById("user").value;
+            var p= document.getElementById("pass").value;
+            if(u=="abc" && p=="123")
+            {
+                document.write("LOGIN CORRECT");
+
+            }
+
+            else{
+                document.write("LOGIN InCORRECT");
+
+            }
+        }
+    </script>
+</head>
+<body>
+    UserName:<input type="text" id="user"><br>
+    Password:<input type="password" id="pass"><br>
+    <button onclick="check() ;">LOGIN</button>
+</body>
+</html>
